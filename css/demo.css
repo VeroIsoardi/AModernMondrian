@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin Sans");
+body {
+  margin: 0;
+  background: #FFFFF0;
+  font-family: "Josefin Sans"; }
+  body, body h2 {
+    color: #696969;
+    font-weight: 500;
+    text-align: center; }
+
+.card {
+  background-color: white;
+  text-align: left;
+  position: absolute;
+  top: 75%;
+  left: 80%;
+  border: #d2d2d2 1px solid;
+  box-shadow: 1px 1px 3px 0px grey;
+  padding: 10px;
+  width: 200px;
+  height: 100px; }
+  .card p {
+    font-size: 0.60em; }
+
+#container {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 600;
+  height: 375; }
+  #container #frame {
+    border: #121212 15px solid;
+    box-shadow: inset 0px 0px 45px 0px black, 0px 0px 45px 0px black; }
+  #container canvas {
+    border: #ffffff 20px solid;
+    display: block; }
+
+/*# sourceMappingURL=demo.css.map */
